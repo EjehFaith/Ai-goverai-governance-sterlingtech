@@ -1,0 +1,5 @@
+Risk_ID,Technical_Feature_IS,Vulnerability_Type,Regulatory_Framework_OUGHT,Compliance_Penalty,Governance_Action_Required
+RISK-01,Historical Gender Ratios,Data Bias / Proxy Variable Optimization,NIST AI RMF (Fairness Pillar),High Risk Profile / System Rejection,Implement Attribute Masking and Synthetic Minority Oversampling (SMOTE) in the data pipeline.
+RISK-02,Indefinite CV Data Retention,Data Hoarding / Excess Storage,Nigeria Data Protection Act (NDPA) 2023,Statutory Corporate Fines (Up to N10m),Hard-code an automated database retention script to sanitize or purge personal candidate identifiers after 180 days.
+RISK-03,Black-Box Vector Embeddings,Lack of Model Explainability,EU AI Act (Extraterritorial Reach - High Risk Tier),Mandatory Global Revenue Fines / Market Ban,Integrate SHAP or LIME explainability libraries to track feature importance weights during training logs.
+RISK-04,Unchecked Model Scoring Drift,Automated Output Variance,National AI Strategy (NAIS Roadmap),Brand Reputation Loss / Operation Halt,Establish a Human-in-the-Loop (HITL) manual trigger if candidate selection parity deviates by >5% in any demographic tier.
